@@ -1,0 +1,24 @@
+<style>
+form{
+    background: powderblue;
+    border: 1px solid;
+    display: block;
+    margin: 0 auto;
+    padding: 14px;
+    width: 183px;
+   text-align:center;
+}
+ 
+input, textarea{
+	margin-bottom: 10px	
+}
+</style>
+<form method="post" action="fb.php">
+  <label for="name">Имя:</label>
+  <input type="text" name="name" />
+  <label for="mail">E-mail:</label>
+  <input type="text" name="mail" />
+  <label for="message">Сообщение:</label>
+  <textarea name="message"></textarea>
+  <input type="submit" value="Отправить" />
+</form>

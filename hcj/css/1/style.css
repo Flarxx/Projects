@@ -1,0 +1,44 @@
+#intro {
+   color:white;
+   background-color:gray;
+}
+.cl{
+color:red;
+}
+#font{
+   font-family: Florence, cursive;
+font-size: 400%;
+font-style:italic;
+font-weight:bolder;
+font-variant:small-caps;
+}
+p{
+text-align:center;
+text-transform: uppercase;
+letter-spacing:5px;
+word-spacing:20px;
+}
+div{
+vertical-align:middle;
+}
+p.none {
+   text-decoration: none;
+}
+p.inherit {
+   text-decoration: inherit;
+}
+p.overline {
+   text-decoration: overline;
+}
+p.underline {
+   text-decoration: underline;
+}
+p.line-through {
+   text-decoration: line-through;
+}
+h1{
+	color:blue;
+	font-size:300%;
+	text-shadow:10px 5px 1px black;
+	text-transform:capitalize;
+}

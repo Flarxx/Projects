@@ -1,0 +1,62 @@
+body{
+	background-color:#89C1E6;
+	background-image: url("1.jpg");
+	background-attachment: fixed;
+}
+div{
+	padding: 10px;
+	border: 2px solid #9A0000;
+	width:100px;
+	height:100px;
+}
+p.none {border-style: none;}
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.hidden {border-style: hidden;}
+ol.lower-alpha {
+   list-style-type: lower-alpha;
+}
+ul.circle {
+   list-style-type: circle;
+}
+ul.square {
+   list-style-type: square;
+}
+a{
+	color:blue;
+	cursor: crosshair
+}
+a:hover{
+	color:red;
+	cursor: crosshair
+}
+p.position_fixed {
+   position: fixed;
+   top: 30px;
+   right: 5px;
+   color: red;
+}
+p .span{
+    width: 350px;
+    border: 1px black solid;
+    position: fixed;
+}
+span {
+    background: green;
+    color: white;
+    position: relative;
+    top: 150px;
+    left: 50px;
+}
+#a2{
+    width: 150px;
+    height: 150px;
+    background-color: LightBlue;
+    float: left;
+    overflow: scroll;
+}
