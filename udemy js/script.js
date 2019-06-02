@@ -78,3 +78,25 @@ console.log(decr);
 console.log(5%2);
 
 */
+
+/*
+
+lesson5: if/else
+
+if (2*4 == 8) {
+    console.log("true!!");
+} else {
+    console.log("FALSE!!");
+}
+
+let num = 30
+
+if (num <= 49) {
+    console.log("small");
+} else if (num > 50) {
+    console.log("BIG");
+} else {
+    console.log("!!50 - COOL!!");
+}
+
+*/
