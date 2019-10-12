@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Lorem Ipsum</title>
+    <link rel="stylesheet" href="/css/screen.css></link>
+  </head>
+  <body>
+    <header>
+  <div class="navbar-fixed">
+    <nav>
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="#" data-activates="slide-out" class="button-collapse show-on-large">
+            <i class="mdi-navigation-menu"></i>
+          </a>
+          <a href="#" class="brand-logo">Bubble Task</a>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
+<ul id="slide-out" class="side-nav">
+  <li class="avatar">
+    <a href="#" class="dropdown-button" data-activates="user-menu">
+      <img src="http://gravatar.com/avatar" class="avatar circle" />
+      <%= current_user.name %><i class="material-icons right">arrow_drop_down</i>
+    </a>
+    <ul id="user-menu" class="dropdown-content">
+      <li><%= link_to '設定', '#' %></li>
+      <li class="divider"></li>
+      <li><%= link_to 'ログアウト', '#' %></li>
+    </ul>
+  </li>
+  <li><a href="#">Home<i class="material-icons left">home</i></a></li>
+  <li><a href="#">Tasks<i class="material-icons left">assignment</i></a></li>
+  <li><a href="#">Tags<i class="material-icons left">label</i></a></li>
+</ul>
+  </body>
+</html>>

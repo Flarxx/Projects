@@ -100,3 +100,43 @@ if (num <= 49) {
 }
 
 */
+
+/*
+
+lesson6 do?while?for
+
+let nun =56;
+
+while (nun > 50){
+    nun = nun - 1;
+    console.log(nun);
+}
+
+do {
+    nun = nun - 1;
+    console.log(nun);
+}
+while (nun >45)
+
+for(let i = 1; i<8; i++) {
+    if (i == 6){
+        continue
+    }
+    console.log("I = " + i);
+}
+
+*/
+
+
+//function calc(a,b) {
+//    return(a+b);
+//}
+
+
+let calc = (a,b) => a+b;
+
+console.log(calc(4,3));
+
+console.log(calc(7,5));
+console.log(calc());
+
